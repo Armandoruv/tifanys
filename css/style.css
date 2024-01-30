@@ -15,24 +15,38 @@ body {
     background-color: var(--cream);
 }
 
-.nav-principal {
+.nav {
     margin: 0;
-    background-color: var(--dark_cream);
-    display: block;
-    align-items: flex-end;
-    text-align: end;
-    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav-bg {
-    padding: auto;
+    background-color: var(--dark_cream);
 }
 
+.nav h1 {
+    margin: 1.5rem;
+}
+
+.nav-principal {
+    display: flex;
+}
 .nav-principal a {
+    display: block;
+    text-align: center;
     text-decoration: none;
     font-family: var(--font);
+    font-size: 2rem;
+    font-weight: 500;
     color: var(--red);
-    padding: .5rem;
+    padding: 1.5rem;
+    
+}
+
+.nav-principal:hover {
+    color: var(--dark_red);
 }
 
 .box {
