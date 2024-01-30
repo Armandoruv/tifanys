@@ -1,0 +1,44 @@
+
+html {
+    font-size: 62.5%;
+    --font: 'Abril Fatface', serif;
+    --cream: #FAF8F1;
+    --dark_cream:#FAEAB1;
+    --red: #ff2727;
+    --dark_red: #A94438;
+
+}
+
+body {
+    margin: 0;
+    font-size: 1.6rem;
+    background-color: var(--cream);
+}
+
+.nav-principal {
+    margin: 0;
+    background-color: var(--dark_cream);
+    display: block;
+    align-items: flex-end;
+    text-align: end;
+    padding: 1rem;
+}
+
+.nav-bg {
+    padding: auto;
+}
+
+.nav-principal a {
+    text-decoration: none;
+    font-family: var(--font);
+    color: var(--red);
+    padding: .5rem;
+}
+
+.box {
+    background-color: black;
+    color: var(--dark_cream);
+    font-family: var(--font);
+    margin: 1rem;
+    
+}
