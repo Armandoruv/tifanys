@@ -5,8 +5,8 @@ html {
     --cream: #FAF8F1;
     --dark_cream:#FAEAB1;
     --red: #ff2727;
-    --dark_red: #A94438;
-
+    --dark_red: #cf0000;
+    --hover-color: #f8e398;
 }
 
 body {
@@ -20,19 +20,23 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.nav-bg {
     background-color: var(--dark_cream);
 }
 
+
+
 .nav h1 {
     margin: 1.5rem;
+    font-size: 4rem;
+    color: white;
 }
 
 .nav-principal {
     display: flex;
+    max-width: 100%;
 }
+
+
 .nav-principal a {
     display: block;
     text-align: center;
@@ -42,11 +46,28 @@ body {
     font-weight: 500;
     color: var(--red);
     padding: 1.5rem;
-    
+
 }
 
-.nav-principal:hover {
+.nav-principal a:hover {
+    background-color: var(--hover-color);
+    border-radius: .5rem;
     color: var(--dark_red);
+}
+
+img {
+    width: 100%;
+}
+
+.slider {
+}
+.slider--inner {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.carousel .products {
+    
 }
 
 .box {
